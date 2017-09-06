@@ -30,7 +30,6 @@ final class MapViewController: UIViewController {
         if let coordinate = sender as? CLLocationCoordinate2D,
             let destination = segue.destination as? WeatherDetailViewController {
             destination.coordinate = coordinate
-            destination.apiService = ApiService(host: "https://api.openweathermap.org/data/2.5/weather?", apiKey: "05bc8675dc8e62dd5eb84aed83c9b31b") //use dependency injection for that
         }
     }
 }
