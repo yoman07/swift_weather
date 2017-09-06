@@ -1,0 +1,42 @@
+{
+    "coord": {
+        "lon": 21.64,
+        "lat": 52.65
+    },
+    "weather": [{
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10n"
+                }],
+    "base": "stations",
+    "main": {
+        "temp": 286.336,
+        "pressure": 1008.09,
+        "humidity": 90,
+        "temp_min": 286.336,
+        "temp_max": 286.336,
+        "sea_level": 1021.82,
+        "grnd_level": 1008.09
+    },
+    "wind": {
+        "speed": 1.52,
+        "deg": 177.501
+    },
+    "rain": {
+        "3h": 0.5625
+    },
+    "clouds": {
+        "all": 92
+    },
+    "dt": 1504722020,
+    "sys": {
+        "message": 0.0025,
+        "country": "PL",
+        "sunrise": 1504670028,
+        "sunset": 1504717685
+    },
+    "id": 775358,
+    "name": "Branszczyk",
+    "cod": 200
+}

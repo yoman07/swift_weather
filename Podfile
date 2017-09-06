@@ -5,7 +5,7 @@ target 'Swift Weather' do
   pod 'SwinjectStoryboard', '~> 1.1.1'
   pod 'Alamofire', '~> 4.4.0'
   pod 'Marshal', '~> 1.2.4'
-
+  
   target 'Swift WeatherTests' do
     inherit! :search_paths
     pod 'Quick', '~> 1.1.0'
