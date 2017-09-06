@@ -11,7 +11,7 @@ final class ApiService: ApiServiceProtocol {
         self.apiKey = apiKey
     }
     
-    func performWeather(for latitude:Double, and longitude: Double, completion: @escaping WeatherRequestCompletion) {
+    func performWeather(lat latitude:Double, long longitude: Double, completion: @escaping WeatherRequestCompletion) {
         let path = "lat=\(latitude)&lon=\(longitude)&appid=\(apiKey)"
         let url = "\(host)\(path)"
         

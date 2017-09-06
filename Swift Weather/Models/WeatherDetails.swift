@@ -3,12 +3,12 @@ import Marshal
 
 struct WeatherDetails {
     var temp: Double
-    var pressure: Double
-    var humidity: Double
-    var tempMin: Double
-    var tempMax: Double
-    var seaLevel: Double
-    var groundLevel: Double
+    var pressure: Double?
+    var humidity: Double?
+    var tempMin: Double?
+    var tempMax: Double?
+    var seaLevel: Double?
+    var groundLevel: Double?
 }
 
 
