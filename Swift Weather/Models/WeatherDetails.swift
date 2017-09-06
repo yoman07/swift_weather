@@ -11,7 +11,6 @@ struct WeatherDetails {
     var groundLevel: Double?
 }
 
-
 extension WeatherDetails: Unmarshaling {
     init(object: MarshaledObject) throws {
         temp = try object.value(for: "temp")

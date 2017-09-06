@@ -18,7 +18,6 @@ extension WeatherDescription: Unmarshaling {
     }
 }
 
-
 extension WeatherDescription: Equatable {
     public static func ==(lhs: WeatherDescription, rhs: WeatherDescription) -> Bool {
         return lhs.main == rhs.main

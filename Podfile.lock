@@ -1,15 +1,8 @@
 PODS:
   - Alamofire (4.4.0)
   - Marshal (1.2.4)
-  - Moya (8.0.5):
-    - Moya/Core (= 8.0.5)
-  - Moya/Core (8.0.5):
-    - Alamofire (~> 4.1)
-    - Result (~> 3.0)
   - Nimble (7.0.1)
   - Quick (1.1.0)
-  - Result (3.2.3)
-  - SwiftLint (0.18.1)
   - Swinject (2.1.1)
   - SwinjectStoryboard (1.1.2):
     - Swinject (~> 2.1)
@@ -17,24 +10,19 @@ PODS:
 DEPENDENCIES:
   - Alamofire (~> 4.4.0)
   - Marshal (~> 1.2.4)
-  - Moya
   - Nimble (~> 7.0.1)
   - Quick (~> 1.1.0)
-  - SwiftLint (~> 0.18.1)
   - Swinject (~> 2.1.0)
   - SwinjectStoryboard (~> 1.1.1)
 
 SPEC CHECKSUMS:
   Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
   Marshal: 8e04e6624e506921db7143b0bfd83caee03f32d6
-  Moya: c37eec09a098ba9991b5a963b291fc5704bdb9ef
   Nimble: 657d000e11df8aebe27cdaf9d244de7f30ed87f7
   Quick: dafc587e21eed9f4cab3249b9f9015b0b7a7f71d
-  Result: 128640a6347e8d2ae48b142556739a2d13f90ce6
-  SwiftLint: b467d08f5b25dc3b3cfed243d8e1b74b91714c67
   Swinject: afea49fd95f392b41171669f165842879c48fad6
   SwinjectStoryboard: 92e75763c3299cdf627bef98a5180dc894864336
 
-PODFILE CHECKSUM: 8e28a9143aa0b317e805b9704c482bf7fdba5cc4
+PODFILE CHECKSUM: bb0846b62e8325ae8583ce31ec90e262fd275664
 
 COCOAPODS: 1.3.1
